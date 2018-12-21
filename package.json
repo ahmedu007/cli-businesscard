@@ -1,0 +1,16 @@
+{
+  "name": "umair_ahmed",
+  "version": "1.0.1",
+  "description": "A personal card for Umair Ahmed",
+  "main": "card.js",
+  "bin": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umair Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
