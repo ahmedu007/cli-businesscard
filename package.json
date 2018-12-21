@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "A personal card for Umair Ahmed",
   "main": "card.js",
-  "bin": {},
+  "bin": {
+    "umair_ahmed": "./card.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
