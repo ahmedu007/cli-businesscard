@@ -7,7 +7,12 @@ const boxen = require("boxen");
 
 // Define options for Boxen
 const options = {
-  padding: 1,
+  padding: {
+    top: 1,
+    bottom: 1,
+    right: 1,
+    left: 2,
+  },
   margin: {
     top: 1,
     left: 2,
@@ -20,7 +25,7 @@ const options = {
 const data = {
   name: chalk.white("Umair Ahmed /"),
   handle: chalk.red("AND Digital"),
-  work: chalk.white("Associate Product developer at Covea"),
+  work: chalk.white("Product developer at Covea"),
   twitter: chalk.cyan("https://twitter.com/umair170"),
   github: chalk.cyan("https://github.com/ahmedu007"),
   linkedin: chalk.cyan("https://linkedin.com/in/umair-ahmed-0222b377/"),
