@@ -10,32 +10,32 @@ const options = {
     top: 1,
     bottom: 1,
     right: 1,
-    left: 2,
+    left: 2
   },
   margin: {
     top: 1,
     left: 2,
-    bottom: 1,
+    bottom: 1
   },
-  borderStyle: "round",
+  borderStyle: "round"
 };
 
 // Text + chalk definitions
 const data = {
   name: chalk.white("Umair Ahmed /"),
   handle: chalk.red("AND Digital"),
-  work: chalk.white("Product developer at Covea"),
+  work: chalk.white("Product developer AND Storm Spirit"),
   twitter: chalk.cyan("https://twitter.com/umair170"),
   github: chalk.cyan("https://github.com/ahmedu007"),
   linkedin: chalk.cyan("https://linkedin.com/in/umair-ahmed-0222b377/"),
   web: chalk.cyan("https://www.umair.dev/"),
   npx: chalk.white("npx umair_ahmed"),
-  labelWork: chalk.white.bold("      Work:"),
+  labelWork: chalk.white.bold("     Title:"),
   labelTwitter: chalk.white.bold("   Twitter:"),
   labelGitHub: chalk.white.bold("    GitHub:"),
   labelLinkedIn: chalk.white.bold("  LinkedIn:"),
   labelWeb: chalk.white.bold("       Web:"),
-  labelCard: chalk.white.bold("      Card:"),
+  labelCard: chalk.white.bold("      Card:")
 };
 
 // Actual strings we're going to output
